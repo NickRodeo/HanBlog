@@ -1,0 +1,36 @@
+# Folder development
+node_modules/
+tests/
+.vscode/
+.idea/
+
+# Asset mentah
+resources/js/
+resources/sass/
+resources/css/
+resources/images/
+
+# File build lokal (jika ada)
+public/hot
+public/storage
+public/mix-manifest.json
+
+# Laravel internals (cache/temp data)
+storage/app/public/
+storage/debugbar/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/testing/
+storage/framework/views/
+storage/logs/
+
+# File konfigurasi lokal
+.env
+.env.local
+.env.development
+.env.testing
+
+# Lain-lain
+*.log
+*.test
+.phpunit.result.cache
